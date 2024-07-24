@@ -1,5 +1,5 @@
 # FROM nginx:latest
-FROM nginx:mainline-alpine-slim
+FROM nginx:1.27.0-alpine3.19-slim
 MAINTAINER ifeng <https://t.me/HiaiFeng>
 EXPOSE 80
 USER root
